@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for yasuo-gem on 2026-03-23T01:18:19Z
+# fly.toml app configuration file generated for yasuo-gem on 2026-03-23T13:44:42Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -13,7 +13,7 @@ primary_region = 'sin'
   destination = '/app/data'
 
 [http_service]
-  internal_port = 8080
+  internal_port = 7860
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
